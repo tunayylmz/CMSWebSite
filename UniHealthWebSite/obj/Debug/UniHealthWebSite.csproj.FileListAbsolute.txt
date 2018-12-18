@@ -1,0 +1,192 @@
+c:\users\tunay\documents\visual studio 2015\Projects\UniHealthWebSite\UniHealthWebSite\bin\ApplicationInsights.config
+c:\users\tunay\documents\visual studio 2015\Projects\UniHealthWebSite\UniHealthWebSite\bin\roslyn\csc.exe
+c:\users\tunay\documents\visual studio 2015\Projects\UniHealthWebSite\UniHealthWebSite\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+c:\users\tunay\documents\visual studio 2015\Projects\UniHealthWebSite\UniHealthWebSite\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+c:\users\tunay\documents\visual studio 2015\Projects\UniHealthWebSite\UniHealthWebSite\bin\roslyn\Microsoft.CodeAnalysis.dll
+c:\users\tunay\documents\visual studio 2015\Projects\UniHealthWebSite\UniHealthWebSite\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+c:\users\tunay\documents\visual studio 2015\Projects\UniHealthWebSite\UniHealthWebSite\bin\roslyn\Microsoft.CSharp.Core.targets
+c:\users\tunay\documents\visual studio 2015\Projects\UniHealthWebSite\UniHealthWebSite\bin\roslyn\Microsoft.VisualBasic.Core.targets
+c:\users\tunay\documents\visual studio 2015\Projects\UniHealthWebSite\UniHealthWebSite\bin\roslyn\System.Collections.Immutable.dll
+c:\users\tunay\documents\visual studio 2015\Projects\UniHealthWebSite\UniHealthWebSite\bin\roslyn\System.Reflection.Metadata.dll
+c:\users\tunay\documents\visual studio 2015\Projects\UniHealthWebSite\UniHealthWebSite\bin\roslyn\vbc.exe
+c:\users\tunay\documents\visual studio 2015\Projects\UniHealthWebSite\UniHealthWebSite\bin\roslyn\VBCSCompiler.exe
+c:\users\tunay\documents\visual studio 2015\Projects\UniHealthWebSite\UniHealthWebSite\bin\roslyn\VBCSCompiler.exe.config
+c:\users\tunay\documents\visual studio 2015\Projects\UniHealthWebSite\UniHealthWebSite\bin\UniHealthWebSite.dll.config
+c:\users\tunay\documents\visual studio 2015\Projects\UniHealthWebSite\UniHealthWebSite\bin\UniHealthWebSite.dll
+c:\users\tunay\documents\visual studio 2015\Projects\UniHealthWebSite\UniHealthWebSite\bin\UniHealthWebSite.pdb
+c:\users\tunay\documents\visual studio 2015\Projects\UniHealthWebSite\UniHealthWebSite\bin\Microsoft.AI.Agent.Intercept.dll
+c:\users\tunay\documents\visual studio 2015\Projects\UniHealthWebSite\UniHealthWebSite\bin\Microsoft.AI.DependencyCollector.dll
+c:\users\tunay\documents\visual studio 2015\Projects\UniHealthWebSite\UniHealthWebSite\bin\Microsoft.AI.PerfCounterCollector.dll
+c:\users\tunay\documents\visual studio 2015\Projects\UniHealthWebSite\UniHealthWebSite\bin\Microsoft.AI.ServerTelemetryChannel.dll
+c:\users\tunay\documents\visual studio 2015\Projects\UniHealthWebSite\UniHealthWebSite\bin\Microsoft.AI.Web.dll
+c:\users\tunay\documents\visual studio 2015\Projects\UniHealthWebSite\UniHealthWebSite\bin\Microsoft.AI.WindowsServer.dll
+c:\users\tunay\documents\visual studio 2015\Projects\UniHealthWebSite\UniHealthWebSite\bin\Microsoft.ApplicationInsights.dll
+c:\users\tunay\documents\visual studio 2015\Projects\UniHealthWebSite\UniHealthWebSite\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+c:\users\tunay\documents\visual studio 2015\Projects\UniHealthWebSite\UniHealthWebSite\bin\Microsoft.Web.Infrastructure.dll
+c:\users\tunay\documents\visual studio 2015\Projects\UniHealthWebSite\UniHealthWebSite\bin\System.Web.Helpers.dll
+c:\users\tunay\documents\visual studio 2015\Projects\UniHealthWebSite\UniHealthWebSite\bin\System.Web.Mvc.dll
+c:\users\tunay\documents\visual studio 2015\Projects\UniHealthWebSite\UniHealthWebSite\bin\System.Web.Razor.dll
+c:\users\tunay\documents\visual studio 2015\Projects\UniHealthWebSite\UniHealthWebSite\bin\System.Web.Webpages.Deployment.dll
+c:\users\tunay\documents\visual studio 2015\Projects\UniHealthWebSite\UniHealthWebSite\bin\System.Web.Webpages.dll
+c:\users\tunay\documents\visual studio 2015\Projects\UniHealthWebSite\UniHealthWebSite\bin\System.Web.Webpages.Razor.dll
+c:\users\tunay\documents\visual studio 2015\Projects\UniHealthWebSite\UniHealthWebSite\bin\Microsoft.AI.DependencyCollector.xml
+c:\users\tunay\documents\visual studio 2015\Projects\UniHealthWebSite\UniHealthWebSite\bin\Microsoft.AI.ServerTelemetryChannel.xml
+c:\users\tunay\documents\visual studio 2015\Projects\UniHealthWebSite\UniHealthWebSite\bin\Microsoft.AI.Web.xml
+c:\users\tunay\documents\visual studio 2015\Projects\UniHealthWebSite\UniHealthWebSite\bin\Microsoft.AI.WindowsServer.xml
+c:\users\tunay\documents\visual studio 2015\Projects\UniHealthWebSite\UniHealthWebSite\bin\Microsoft.ApplicationInsights.xml
+c:\users\tunay\documents\visual studio 2015\Projects\UniHealthWebSite\UniHealthWebSite\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+c:\users\tunay\documents\visual studio 2015\Projects\UniHealthWebSite\UniHealthWebSite\bin\System.Web.Razor.xml
+c:\users\tunay\documents\visual studio 2015\Projects\UniHealthWebSite\UniHealthWebSite\bin\System.Web.Webpages.xml
+c:\users\tunay\documents\visual studio 2015\Projects\UniHealthWebSite\UniHealthWebSite\bin\System.Web.Webpages.Deployment.xml
+c:\users\tunay\documents\visual studio 2015\Projects\UniHealthWebSite\UniHealthWebSite\bin\System.Web.Webpages.Razor.xml
+c:\users\tunay\documents\visual studio 2015\Projects\UniHealthWebSite\UniHealthWebSite\bin\System.Web.Helpers.xml
+c:\users\tunay\documents\visual studio 2015\Projects\UniHealthWebSite\UniHealthWebSite\bin\System.Web.Mvc.xml
+c:\users\tunay\documents\visual studio 2015\Projects\UniHealthWebSite\UniHealthWebSite\obj\Debug\UniHealthWebSite.csprojResolveAssemblyReference.cache
+c:\users\tunay\documents\visual studio 2015\Projects\UniHealthWebSite\UniHealthWebSite\obj\Debug\UniHealthWebSite.dll
+c:\users\tunay\documents\visual studio 2015\Projects\UniHealthWebSite\UniHealthWebSite\obj\Debug\UniHealthWebSite.pdb
+C:\Projects\UniHealthWebSite\UniHealthWebSite.net\UniHealthWebSite\bin\ApplicationInsights.config
+C:\Projects\UniHealthWebSite\UniHealthWebSite.net\UniHealthWebSite\bin\roslyn\csc.exe
+C:\Projects\UniHealthWebSite\UniHealthWebSite.net\UniHealthWebSite\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Projects\UniHealthWebSite\UniHealthWebSite.net\UniHealthWebSite\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Projects\UniHealthWebSite\UniHealthWebSite.net\UniHealthWebSite\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Projects\UniHealthWebSite\UniHealthWebSite.net\UniHealthWebSite\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Projects\UniHealthWebSite\UniHealthWebSite.net\UniHealthWebSite\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Projects\UniHealthWebSite\UniHealthWebSite.net\UniHealthWebSite\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Projects\UniHealthWebSite\UniHealthWebSite.net\UniHealthWebSite\bin\roslyn\System.Collections.Immutable.dll
+C:\Projects\UniHealthWebSite\UniHealthWebSite.net\UniHealthWebSite\bin\roslyn\System.Reflection.Metadata.dll
+C:\Projects\UniHealthWebSite\UniHealthWebSite.net\UniHealthWebSite\bin\roslyn\vbc.exe
+C:\Projects\UniHealthWebSite\UniHealthWebSite.net\UniHealthWebSite\bin\roslyn\VBCSCompiler.exe
+C:\Projects\UniHealthWebSite\UniHealthWebSite.net\UniHealthWebSite\bin\roslyn\VBCSCompiler.exe.config
+C:\Projects\UniHealthWebSite\UniHealthWebSite.net\UniHealthWebSite\bin\UniHealthWebSite.dll.config
+C:\Projects\UniHealthWebSite\UniHealthWebSite.net\UniHealthWebSite\bin\UniHealthWebSite.dll
+C:\Projects\UniHealthWebSite\UniHealthWebSite.net\UniHealthWebSite\bin\UniHealthWebSite.pdb
+C:\Projects\UniHealthWebSite\UniHealthWebSite.net\UniHealthWebSite\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Projects\UniHealthWebSite\UniHealthWebSite.net\UniHealthWebSite\bin\Microsoft.AI.DependencyCollector.dll
+C:\Projects\UniHealthWebSite\UniHealthWebSite.net\UniHealthWebSite\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Projects\UniHealthWebSite\UniHealthWebSite.net\UniHealthWebSite\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Projects\UniHealthWebSite\UniHealthWebSite.net\UniHealthWebSite\bin\Microsoft.AI.Web.dll
+C:\Projects\UniHealthWebSite\UniHealthWebSite.net\UniHealthWebSite\bin\Microsoft.AI.WindowsServer.dll
+C:\Projects\UniHealthWebSite\UniHealthWebSite.net\UniHealthWebSite\bin\Microsoft.ApplicationInsights.dll
+C:\Projects\UniHealthWebSite\UniHealthWebSite.net\UniHealthWebSite\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Projects\UniHealthWebSite\UniHealthWebSite.net\UniHealthWebSite\bin\Microsoft.Web.Infrastructure.dll
+C:\Projects\UniHealthWebSite\UniHealthWebSite.net\UniHealthWebSite\bin\System.Web.Helpers.dll
+C:\Projects\UniHealthWebSite\UniHealthWebSite.net\UniHealthWebSite\bin\System.Web.Mvc.dll
+C:\Projects\UniHealthWebSite\UniHealthWebSite.net\UniHealthWebSite\bin\System.Web.Razor.dll
+C:\Projects\UniHealthWebSite\UniHealthWebSite.net\UniHealthWebSite\bin\System.Web.Webpages.Deployment.dll
+C:\Projects\UniHealthWebSite\UniHealthWebSite.net\UniHealthWebSite\bin\System.Web.Webpages.dll
+C:\Projects\UniHealthWebSite\UniHealthWebSite.net\UniHealthWebSite\bin\System.Web.Webpages.Razor.dll
+C:\Projects\UniHealthWebSite\UniHealthWebSite.net\UniHealthWebSite\bin\Microsoft.AI.DependencyCollector.xml
+C:\Projects\UniHealthWebSite\UniHealthWebSite.net\UniHealthWebSite\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Projects\UniHealthWebSite\UniHealthWebSite.net\UniHealthWebSite\bin\Microsoft.AI.Web.xml
+C:\Projects\UniHealthWebSite\UniHealthWebSite.net\UniHealthWebSite\bin\Microsoft.AI.WindowsServer.xml
+C:\Projects\UniHealthWebSite\UniHealthWebSite.net\UniHealthWebSite\bin\Microsoft.ApplicationInsights.xml
+C:\Projects\UniHealthWebSite\UniHealthWebSite.net\UniHealthWebSite\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Projects\UniHealthWebSite\UniHealthWebSite.net\UniHealthWebSite\bin\System.Web.Razor.xml
+C:\Projects\UniHealthWebSite\UniHealthWebSite.net\UniHealthWebSite\bin\System.Web.Webpages.xml
+C:\Projects\UniHealthWebSite\UniHealthWebSite.net\UniHealthWebSite\bin\System.Web.Webpages.Deployment.xml
+C:\Projects\UniHealthWebSite\UniHealthWebSite.net\UniHealthWebSite\bin\System.Web.Webpages.Razor.xml
+C:\Projects\UniHealthWebSite\UniHealthWebSite.net\UniHealthWebSite\bin\System.Web.Helpers.xml
+C:\Projects\UniHealthWebSite\UniHealthWebSite.net\UniHealthWebSite\bin\System.Web.Mvc.xml
+C:\Projects\UniHealthWebSite\UniHealthWebSite.net\UniHealthWebSite\obj\Debug\UniHealthWebSite.csprojResolveAssemblyReference.cache
+C:\Projects\UniHealthWebSite\UniHealthWebSite.net\UniHealthWebSite\obj\Debug\UniHealthWebSite.dll
+C:\Projects\UniHealthWebSite\UniHealthWebSite.net\UniHealthWebSite\obj\Debug\UniHealthWebSite.pdb
+C:\Users\tunay\OneDrive\Desktop\UniHealthWebSite.net\UniHealthWebSite\bin\ApplicationInsights.config
+C:\Users\tunay\OneDrive\Desktop\UniHealthWebSite.net\UniHealthWebSite\bin\roslyn\csc.exe
+C:\Users\tunay\OneDrive\Desktop\UniHealthWebSite.net\UniHealthWebSite\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\tunay\OneDrive\Desktop\UniHealthWebSite.net\UniHealthWebSite\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\tunay\OneDrive\Desktop\UniHealthWebSite.net\UniHealthWebSite\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\tunay\OneDrive\Desktop\UniHealthWebSite.net\UniHealthWebSite\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\tunay\OneDrive\Desktop\UniHealthWebSite.net\UniHealthWebSite\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\tunay\OneDrive\Desktop\UniHealthWebSite.net\UniHealthWebSite\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\tunay\OneDrive\Desktop\UniHealthWebSite.net\UniHealthWebSite\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\tunay\OneDrive\Desktop\UniHealthWebSite.net\UniHealthWebSite\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\tunay\OneDrive\Desktop\UniHealthWebSite.net\UniHealthWebSite\bin\roslyn\vbc.exe
+C:\Users\tunay\OneDrive\Desktop\UniHealthWebSite.net\UniHealthWebSite\bin\roslyn\VBCSCompiler.exe
+C:\Users\tunay\OneDrive\Desktop\UniHealthWebSite.net\UniHealthWebSite\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\tunay\OneDrive\Desktop\UniHealthWebSite.net\UniHealthWebSite\bin\UniHealthWebSite.dll.config
+C:\Users\tunay\OneDrive\Desktop\UniHealthWebSite.net\UniHealthWebSite\bin\UniHealthWebSite.dll
+C:\Users\tunay\OneDrive\Desktop\UniHealthWebSite.net\UniHealthWebSite\bin\UniHealthWebSite.pdb
+C:\Users\tunay\OneDrive\Desktop\UniHealthWebSite.net\UniHealthWebSite\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\tunay\OneDrive\Desktop\UniHealthWebSite.net\UniHealthWebSite\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\tunay\OneDrive\Desktop\UniHealthWebSite.net\UniHealthWebSite\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\tunay\OneDrive\Desktop\UniHealthWebSite.net\UniHealthWebSite\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\tunay\OneDrive\Desktop\UniHealthWebSite.net\UniHealthWebSite\bin\Microsoft.AI.Web.dll
+C:\Users\tunay\OneDrive\Desktop\UniHealthWebSite.net\UniHealthWebSite\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\tunay\OneDrive\Desktop\UniHealthWebSite.net\UniHealthWebSite\bin\Microsoft.ApplicationInsights.dll
+C:\Users\tunay\OneDrive\Desktop\UniHealthWebSite.net\UniHealthWebSite\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\tunay\OneDrive\Desktop\UniHealthWebSite.net\UniHealthWebSite\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\tunay\OneDrive\Desktop\UniHealthWebSite.net\UniHealthWebSite\bin\System.Web.Helpers.dll
+C:\Users\tunay\OneDrive\Desktop\UniHealthWebSite.net\UniHealthWebSite\bin\System.Web.Mvc.dll
+C:\Users\tunay\OneDrive\Desktop\UniHealthWebSite.net\UniHealthWebSite\bin\System.Web.Razor.dll
+C:\Users\tunay\OneDrive\Desktop\UniHealthWebSite.net\UniHealthWebSite\bin\System.Web.Webpages.Deployment.dll
+C:\Users\tunay\OneDrive\Desktop\UniHealthWebSite.net\UniHealthWebSite\bin\System.Web.Webpages.dll
+C:\Users\tunay\OneDrive\Desktop\UniHealthWebSite.net\UniHealthWebSite\bin\System.Web.Webpages.Razor.dll
+C:\Users\tunay\OneDrive\Desktop\UniHealthWebSite.net\UniHealthWebSite\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\tunay\OneDrive\Desktop\UniHealthWebSite.net\UniHealthWebSite\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\tunay\OneDrive\Desktop\UniHealthWebSite.net\UniHealthWebSite\bin\Microsoft.AI.Web.xml
+C:\Users\tunay\OneDrive\Desktop\UniHealthWebSite.net\UniHealthWebSite\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\tunay\OneDrive\Desktop\UniHealthWebSite.net\UniHealthWebSite\bin\Microsoft.ApplicationInsights.xml
+C:\Users\tunay\OneDrive\Desktop\UniHealthWebSite.net\UniHealthWebSite\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\tunay\OneDrive\Desktop\UniHealthWebSite.net\UniHealthWebSite\bin\System.Web.Razor.xml
+C:\Users\tunay\OneDrive\Desktop\UniHealthWebSite.net\UniHealthWebSite\bin\System.Web.Webpages.xml
+C:\Users\tunay\OneDrive\Desktop\UniHealthWebSite.net\UniHealthWebSite\bin\System.Web.Webpages.Deployment.xml
+C:\Users\tunay\OneDrive\Desktop\UniHealthWebSite.net\UniHealthWebSite\bin\System.Web.Webpages.Razor.xml
+C:\Users\tunay\OneDrive\Desktop\UniHealthWebSite.net\UniHealthWebSite\bin\System.Web.Helpers.xml
+C:\Users\tunay\OneDrive\Desktop\UniHealthWebSite.net\UniHealthWebSite\bin\System.Web.Mvc.xml
+C:\Users\tunay\OneDrive\Desktop\UniHealthWebSite.net\UniHealthWebSite\obj\Debug\UniHealthWebSite.csprojAssemblyReference.cache
+C:\Users\tunay\OneDrive\Desktop\UniHealthWebSite.net\UniHealthWebSite\obj\Debug\UniHealthWebSite.csproj.CoreCompileInputs.cache
+C:\Users\tunay\OneDrive\Desktop\UniHealthWebSite.net\UniHealthWebSite\obj\Debug\UniHealthWebSite.csproj.CopyComplete
+C:\Users\tunay\OneDrive\Desktop\UniHealthWebSite.net\UniHealthWebSite\obj\Debug\UniHealthWebSite.dll
+C:\Users\tunay\OneDrive\Desktop\UniHealthWebSite.net\UniHealthWebSite\obj\Debug\UniHealthWebSite.pdb
+C:\Projects\UniHealthWebSite\UniHealthWebSite\UniHealthWebSite\bin\ApplicationInsights.config
+C:\Projects\UniHealthWebSite\UniHealthWebSite\UniHealthWebSite\bin\roslyn\csc.exe
+C:\Projects\UniHealthWebSite\UniHealthWebSite\UniHealthWebSite\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Projects\UniHealthWebSite\UniHealthWebSite\UniHealthWebSite\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Projects\UniHealthWebSite\UniHealthWebSite\UniHealthWebSite\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Projects\UniHealthWebSite\UniHealthWebSite\UniHealthWebSite\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Projects\UniHealthWebSite\UniHealthWebSite\UniHealthWebSite\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Projects\UniHealthWebSite\UniHealthWebSite\UniHealthWebSite\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Projects\UniHealthWebSite\UniHealthWebSite\UniHealthWebSite\bin\roslyn\System.Collections.Immutable.dll
+C:\Projects\UniHealthWebSite\UniHealthWebSite\UniHealthWebSite\bin\roslyn\System.Reflection.Metadata.dll
+C:\Projects\UniHealthWebSite\UniHealthWebSite\UniHealthWebSite\bin\roslyn\vbc.exe
+C:\Projects\UniHealthWebSite\UniHealthWebSite\UniHealthWebSite\bin\roslyn\VBCSCompiler.exe
+C:\Projects\UniHealthWebSite\UniHealthWebSite\UniHealthWebSite\bin\roslyn\VBCSCompiler.exe.config
+C:\Projects\UniHealthWebSite\UniHealthWebSite\UniHealthWebSite\bin\UniHealthWebSite.dll.config
+C:\Projects\UniHealthWebSite\UniHealthWebSite\UniHealthWebSite\bin\UniHealthWebSite.dll
+C:\Projects\UniHealthWebSite\UniHealthWebSite\UniHealthWebSite\bin\UniHealthWebSite.pdb
+C:\Projects\UniHealthWebSite\UniHealthWebSite\UniHealthWebSite\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Projects\UniHealthWebSite\UniHealthWebSite\UniHealthWebSite\bin\Microsoft.AI.DependencyCollector.dll
+C:\Projects\UniHealthWebSite\UniHealthWebSite\UniHealthWebSite\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Projects\UniHealthWebSite\UniHealthWebSite\UniHealthWebSite\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Projects\UniHealthWebSite\UniHealthWebSite\UniHealthWebSite\bin\Microsoft.AI.Web.dll
+C:\Projects\UniHealthWebSite\UniHealthWebSite\UniHealthWebSite\bin\Microsoft.AI.WindowsServer.dll
+C:\Projects\UniHealthWebSite\UniHealthWebSite\UniHealthWebSite\bin\Microsoft.ApplicationInsights.dll
+C:\Projects\UniHealthWebSite\UniHealthWebSite\UniHealthWebSite\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Projects\UniHealthWebSite\UniHealthWebSite\UniHealthWebSite\bin\Microsoft.Web.Infrastructure.dll
+C:\Projects\UniHealthWebSite\UniHealthWebSite\UniHealthWebSite\bin\System.Web.Helpers.dll
+C:\Projects\UniHealthWebSite\UniHealthWebSite\UniHealthWebSite\bin\System.Web.Mvc.dll
+C:\Projects\UniHealthWebSite\UniHealthWebSite\UniHealthWebSite\bin\System.Web.Razor.dll
+C:\Projects\UniHealthWebSite\UniHealthWebSite\UniHealthWebSite\bin\System.Web.Webpages.Deployment.dll
+C:\Projects\UniHealthWebSite\UniHealthWebSite\UniHealthWebSite\bin\System.Web.Webpages.dll
+C:\Projects\UniHealthWebSite\UniHealthWebSite\UniHealthWebSite\bin\System.Web.Webpages.Razor.dll
+C:\Projects\UniHealthWebSite\UniHealthWebSite\UniHealthWebSite\bin\Microsoft.AI.DependencyCollector.xml
+C:\Projects\UniHealthWebSite\UniHealthWebSite\UniHealthWebSite\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Projects\UniHealthWebSite\UniHealthWebSite\UniHealthWebSite\bin\Microsoft.AI.Web.xml
+C:\Projects\UniHealthWebSite\UniHealthWebSite\UniHealthWebSite\bin\Microsoft.AI.WindowsServer.xml
+C:\Projects\UniHealthWebSite\UniHealthWebSite\UniHealthWebSite\bin\Microsoft.ApplicationInsights.xml
+C:\Projects\UniHealthWebSite\UniHealthWebSite\UniHealthWebSite\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Projects\UniHealthWebSite\UniHealthWebSite\UniHealthWebSite\bin\System.Web.Razor.xml
+C:\Projects\UniHealthWebSite\UniHealthWebSite\UniHealthWebSite\bin\System.Web.Webpages.xml
+C:\Projects\UniHealthWebSite\UniHealthWebSite\UniHealthWebSite\bin\System.Web.Webpages.Deployment.xml
+C:\Projects\UniHealthWebSite\UniHealthWebSite\UniHealthWebSite\bin\System.Web.Webpages.Razor.xml
+C:\Projects\UniHealthWebSite\UniHealthWebSite\UniHealthWebSite\bin\System.Web.Helpers.xml
+C:\Projects\UniHealthWebSite\UniHealthWebSite\UniHealthWebSite\bin\System.Web.Mvc.xml
+C:\Projects\UniHealthWebSite\UniHealthWebSite\UniHealthWebSite\obj\Debug\UniHealthWebSite.csprojAssemblyReference.cache
+C:\Projects\UniHealthWebSite\UniHealthWebSite\UniHealthWebSite\obj\Debug\UniHealthWebSite.csproj.CoreCompileInputs.cache
+C:\Projects\UniHealthWebSite\UniHealthWebSite\UniHealthWebSite\obj\Debug\UniHealthWebSite.csproj.CopyComplete
+C:\Projects\UniHealthWebSite\UniHealthWebSite\UniHealthWebSite\obj\Debug\UniHealthWebSite.dll
+C:\Projects\UniHealthWebSite\UniHealthWebSite\UniHealthWebSite\obj\Debug\UniHealthWebSite.pdb
+C:\Projects\UniHealthWebSite\UniHealthWebSite\UniHealthWebSite\bin\EntityFramework.dll
+C:\Projects\UniHealthWebSite\UniHealthWebSite\UniHealthWebSite\bin\EntityFramework.SqlServer.dll
+C:\Projects\UniHealthWebSite\UniHealthWebSite\UniHealthWebSite\bin\EntityFramework.xml
+C:\Projects\UniHealthWebSite\UniHealthWebSite\UniHealthWebSite\bin\EntityFramework.SqlServer.xml
