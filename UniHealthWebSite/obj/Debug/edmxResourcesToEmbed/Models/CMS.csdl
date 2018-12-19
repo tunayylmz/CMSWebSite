@@ -2,6 +2,8 @@
 <Schema Namespace="CMSModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
   <EntityContainer Name="CMSEntities" annotation:LazyLoadingEnabled="true">
     <EntitySet Name="Register" EntityType="CMSModel.Register" />
+    <EntitySet Name="FreeTrial" EntityType="CMSModel.FreeTrial" />
+    <EntitySet Name="CityName" EntityType="CMSModel.CityName" />
   </EntityContainer>
   <EntityType Name="Register">
     <Key>
@@ -13,5 +15,22 @@
     <Property Name="UserCity" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
     <Property Name="Mail" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
     <Property Name="UserMessage" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="FreeTrial">
+    <Key>
+      <PropertyRef Name="NameId" />
+    </Key>
+    <Property Name="NameId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="NameSurname" Type="String" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Name="EMail" Type="String" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Name="Phone" Type="String" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Name="CompanyName" Type="String" MaxLength="150" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="CityName">
+    <Key>
+      <PropertyRef Name="CityId" />
+    </Key>
+    <Property Name="CityId" Type="Int32" Nullable="false" />
+    <Property Name="CityNameText" Type="String" MaxLength="150" FixedLength="false" Unicode="true" />
   </EntityType>
 </Schema>

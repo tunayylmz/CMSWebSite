@@ -13,5 +13,24 @@
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>
+    <EntitySetMapping Name="FreeTrial">
+      <EntityTypeMapping TypeName="CMSModel.FreeTrial">
+        <MappingFragment StoreEntitySet="FreeTrial">
+          <ScalarProperty Name="CompanyName" ColumnName="CompanyName" />
+          <ScalarProperty Name="Phone" ColumnName="Phone" />
+          <ScalarProperty Name="EMail" ColumnName="EMail" />
+          <ScalarProperty Name="NameSurname" ColumnName="NameSurname" />
+          <ScalarProperty Name="NameId" ColumnName="NameId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CityName">
+      <EntityTypeMapping TypeName="CMSModel.CityName">
+        <MappingFragment StoreEntitySet="CityName">
+          <ScalarProperty Name="CityNameText" ColumnName="CityNameText" />
+          <ScalarProperty Name="CityId" ColumnName="CityId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
   </EntityContainerMapping>
 </Mapping>

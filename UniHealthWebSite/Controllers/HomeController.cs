@@ -4,6 +4,7 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 using UniHealthWebSite.Models;
+using static System.Net.Mime.MediaTypeNames;
 
 namespace UniHealthWebSite.Controllers
 {
@@ -97,26 +98,63 @@ namespace UniHealthWebSite.Controllers
         {
             return View();
         }
+        [HttpGet]
         public ActionResult FreeContact()
         {
-            return View();
+            CMSEntitiesDBContext db = new CMSEntitiesDBContext();
+            List<SelectListItem> ListSelectListItem = new List<SelectListItem>();
+            foreach (CityName cityName in db.Cities)
+            {
+                SelectListItem selectListItem = new SelectListItem()
+                {
+                    Text = cityName.CityNameText,
+                    Value = cityName.CityId.ToString()
+                    
+                };
+                ListSelectListItem.Add(selectListItem);
+            }
+            CitiesViewModel citiesViewModel = new CitiesViewModel();
+            citiesViewModel.Cities = ListSelectListItem;
+            return View(citiesViewModel);
         }
-        [HttpPost]
-        public ActionResult FreeContact(FormCollection form)
-        {
-            CMSEntities db = new CMSEntities();
-            Register model = new Register();
-            model.UserName = form["txtbxYetkiliKisi"].Trim();
-            model.UserPhone = Convert.ToDecimal( form["txtbxTelefon"].Trim());
-            model.UserCity = form["ddlSehir"].Trim();
-            model.Mail = form["txtbxMail"].Trim();
-            model.UserMessage = form["txtbxMesaj"].Trim();
-
-            db.Register.Add(model);
-            db.SaveChanges();
+        
+        //[HttpPost]
+        //public ActionResult FreeContact(FormCollection form)
+        //{
+        //    CMSEntities db = new CMSEntities();
+        //    Register model = new Register();
+        //    model.UserName = form["txtbxYetkiliKisi"].Trim();
+        //    model.UserPhone = Convert.ToDecimal( form["txtbxTelefon"].Trim());
+        //    model.UserCity = form["ddlSehir"].Trim();
+        //    model.Mail = form["txtbxMail"].Trim();
+        //    model.UserMessage = form["txtbxMesaj"].Trim();           
+        //    db.Register.Add(model);
+        //    db.SaveChanges();
             
 
-            return View();
-        }
+        //    return View();
+        //}
+        
+        //[HttpPost]
+        //public ActionResult About(FormCollection form)
+        //{
+        //    CMSEntities db = new CMSEntities();
+        //    FreeTrial mdl = new FreeTrial();
+        //    mdl.NameSurname = form["txtbxYetkiliKisi"].Trim();
+        //    mdl.EMail = form["txtbxMail"].Trim();
+        //    mdl.Phone = Convert.ToString(form["txtbxTelefon"].Trim()); ;
+        //    mdl.CompanyName = form["txtbxFirmaAdi"].Trim();
+        //    db.FreeTrial.Add(mdl);
+        //    db.SaveChanges();
+
+
+        //    return View();
+        //}
+        
+    }
+
+    internal class FreeContact
+    {
+        public List<SelectListItem> CityName { get; internal set; }
     }
 }

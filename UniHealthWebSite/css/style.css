@@ -8716,7 +8716,7 @@ input, textarea {
     z-index: 0;
     margin-top: 0 !important;
     margin-bottom: 0 !important;
-    padding-left: 48px;
+    padding-left: 17px;
     margin-left: 0;
     transition: background-color 100ms ease-out;
 }

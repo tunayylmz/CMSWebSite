@@ -63,58 +63,45 @@
         </div>
     </div>
 </section>
-
-<section>
-    <div id="anasayfaDemoTalep" class="AnasayfaDemoTalepContent">
-        <div class="anasayfaDemoTalepInner">
-            <div class="container">
-                <div class="row text-center wow fadeInUp" style="color: #fff;">
-                    <div class="modulTittle col-lg-12">
-                        <h2>15 Gün Ücretsiz Deneyin</h2>
-                        <p class="lead">
-                            Devlerin kullandığı e-ticaret alt yapısının 15 günlük demosu hemen mailinize gelsin.
-                        </p>
-                    </div>
-                </div>
-                <div class="row" style="margin-top: 20px;">
-                    <div class="col-md-3 col-sm-3 col-xs-12 wow fadeInUp demoItem ">
-                        <input type="text" class="form-control1 AnasayfaForm IsimIco" placeholder="Firma" id="txtbxFirmaAdi" autocomplete="off">
-                    </div>
-                    <div class="col-md-3 col-sm-3 col-xs-12 wow fadeInUp demoItem">
-                        <input type="text" class="form-control1 AnasayfaForm IsimIco" placeholder="Adınız Soyadınız" id="txtbxYetkiliKisi" autocomplete="off">
-                    </div>
-                    <div class="col-md-3 col-sm-3 col-xs-12 wow fadeInUp demoItem">
-                        <input type="text" class="form-control1 AnasayfaForm EmailIco" placeholder="Email" id="txtbxMail" autocomplete="off">
-                    </div>
-                    <div class="col-md-3 col-sm-3 col-xs-12 wow fadeInUp demoItem">
-                        <div class="intl-tel-input">
-                        </div><input type="text" class="form-control1  AnasayfaForm IsTelIco" placeholder="Telefon" id="txtbxTelefon" autocomplete="off">
-                    </div>
-                </div>
-                <div class="col-sm-12 col-xs-12 demoItem">
-                    <div class="row1">
-                        <div class="col-md-2">
+<form action="/Home/about" method="post">
+    <section>
+        <div id="anasayfaDemoTalep" class="AnasayfaDemoTalepContent">
+            <div class="anasayfaDemoTalepInner">
+                <div class="container">
+                    <div class="row text-center wow fadeInUp" style="color: #fff;">
+                        <div class="modulTittle col-lg-12">
+                            <h2>15 Gün Ücretsiz Deneyin</h2>
+                            <p class="lead">
+                                Devlerin kullandığı e-ticaret alt yapısının 15 günlük demosu hemen mailinize gelsin.
+                            </p>
                         </div>
-                        <div>
-                            <input type="checkbox" id="chkSms" name="chkSms">
-                            <label for="chkSms">Kampanyalardan SMS ile haberdar olmak istiyorum.</label>
-                            <div class="clear visible-xs "></div>
-                            <input type="checkbox" id="chkEmail" name="chkEmail" checked="checked">
-                            <label for="chkEmail">Kampanyalardan E-Mail ile haberdar olmak istiyorum.</label>
+                    </div>
+                    <div class="row" style="margin-top: 20px;">
+                        <div class="col-md-3 col-sm-3 col-xs-12 wow fadeInUp demoItem ">
+                            <input type="text" class="form-control1 AnasayfaForm IsimIco" placeholder="Firma" name="txtbxFirmaAdi" id="txtbxFirmaAdi" autocomplete="off">
+                      
+                        
                         </div>
-                        <div class="col-md-2">
+                        <div class="col-md-3 col-sm-3 col-xs-12 wow fadeInUp demoItem">
+                            <input type="text" class="form-control1 AnasayfaForm IsimIco" placeholder="Adınız Soyadınız" name="txtbxYetkiliKisi" id="txtbxYetkiliKisi" autocomplete="off">
+                        </div>
+                        <div class="col-md-3 col-sm-3 col-xs-12 wow fadeInUp demoItem">
+                            <input type="text" class="form-control1 AnasayfaForm EmailIco" placeholder="Email" name="txtbxMail" id="txtbxMail" autocomplete="off">
+                        </div>
+                        <div class="col-md-3 col-sm-3 col-xs-12 wow fadeInUp demoItem">
+                            <div class="intl-tel-input">
+                            </div><input type="text" class="form-control1  AnasayfaForm IsTelIco" placeholder="Telefon" name="txtbxTelefon" id="txtbxTelefon" autocomplete="off">
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="row" style="text-align: center; margin-top: 30px;">
-                <span class="spanDemoKaydet lead" style="display: none; color: white;">İşleminiz yapılıyor lütfen bekleyiniz...</span>
-                <input type="button" id="btnDemoGonder" name="btnDemoGonder" value="Demoyu Gönder" class="btn2 btn-success ucretsizDemo" onclick="demoKaydet();">
+                <div class="row" style="text-align: center; margin-top: 30px;">
+                    <span class="spanDemoKaydet lead" style="display: none; color: white;">İşleminiz yapılıyor lütfen bekleyiniz...</span>
+                    <input type="submit" id="btnDemoGonder" name="btnDemoGonder" value="Demoyu Gönder" class="btn2 btn-success ucretsizDemo" onclick="demoKaydet();">
+                </div>
             </div>
         </div>
-    </div>
-    </div>
-</section>
+    </section>
+</form>
 <section class="service-style3 sec-padd2">
     <div class="container">
         <div class="section-title">
