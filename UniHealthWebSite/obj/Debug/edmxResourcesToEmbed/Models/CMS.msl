@@ -13,22 +13,33 @@
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>
-    <EntitySetMapping Name="FreeTrial">
-      <EntityTypeMapping TypeName="CMSModel.FreeTrial">
-        <MappingFragment StoreEntitySet="FreeTrial">
-          <ScalarProperty Name="CompanyName" ColumnName="CompanyName" />
-          <ScalarProperty Name="Phone" ColumnName="Phone" />
-          <ScalarProperty Name="EMail" ColumnName="EMail" />
-          <ScalarProperty Name="NameSurname" ColumnName="NameSurname" />
-          <ScalarProperty Name="NameId" ColumnName="NameId" />
-        </MappingFragment>
-      </EntityTypeMapping>
-    </EntitySetMapping>
     <EntitySetMapping Name="CityName">
       <EntityTypeMapping TypeName="CMSModel.CityName">
         <MappingFragment StoreEntitySet="CityName">
           <ScalarProperty Name="CityNameText" ColumnName="CityNameText" />
           <ScalarProperty Name="CityId" ColumnName="CityId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="FaqQuestions">
+      <EntityTypeMapping TypeName="CMSModel.FaqQuestions">
+        <MappingFragment StoreEntitySet="FaqQuestions">
+          <ScalarProperty Name="Questions" ColumnName="Questions" />
+          <ScalarProperty Name="Subject" ColumnName="Subject" />
+          <ScalarProperty Name="UserMail" ColumnName="UserMail" />
+          <ScalarProperty Name="UserName" ColumnName="UserName" />
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="FreeTrial">
+      <EntityTypeMapping TypeName="CMSModel.FreeTrial">
+        <MappingFragment StoreEntitySet="FreeTrial">
+          <ScalarProperty Name="CompanyName" ColumnName="CompanyName" />
+          <ScalarProperty Name="UserPhone" ColumnName="UserPhone" />
+          <ScalarProperty Name="UserMail" ColumnName="UserMail" />
+          <ScalarProperty Name="NameSurname" ColumnName="NameSurname" />
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>

@@ -41,8 +41,22 @@ namespace UniHealthWebSite.Controllers
         {
             return View();
         }
-        public ActionResult faq()
+        public ActionResult Faq()
         {
+            return View();
+        }
+        [HttpPost]
+        public ActionResult Faq(FormCollection form)
+        {
+            CMSEntities db = new CMSEntities();
+            FaqQuestions model = new FaqQuestions();
+            model.UserName = form["txtname"].Trim();
+            model.UserMail = form["txtemail"].Trim();
+            model.Subject = form["txtsubject"].Trim();
+            model.Questions = form["txtmessage"].Trim();
+            db.FaqQuestions.Add(model);
+            db.SaveChanges();
+
             return View();
         }
         public ActionResult project1()
@@ -77,7 +91,6 @@ namespace UniHealthWebSite.Controllers
         {
             return View();
         }
-        public ActionResult freeContact => View();
         public ActionResult service4()
         {
             return View();
@@ -103,12 +116,12 @@ namespace UniHealthWebSite.Controllers
         {
             CMSEntitiesDBContext db = new CMSEntitiesDBContext();
             List<SelectListItem> ListSelectListItem = new List<SelectListItem>();
-            foreach (CityName cityName in db.Cities)
+            foreach (CityName cityNameText in db.Cities)
             {
                 SelectListItem selectListItem = new SelectListItem()
                 {
-                    Text = cityName.CityNameText,
-                    Value = cityName.CityId.ToString()
+                    Text = cityNameText.CityNameText,
+                    Value = cityNameText.CityId.ToString()
                     
                 };
                 ListSelectListItem.Add(selectListItem);
@@ -157,4 +170,5 @@ namespace UniHealthWebSite.Controllers
     {
         public List<SelectListItem> CityName { get; internal set; }
     }
+    
 }

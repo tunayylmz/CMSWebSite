@@ -7,14 +7,24 @@
     <Property Name="CityId" Type="int" Nullable="false" />
     <Property Name="CityNameText" Type="nvarchar" MaxLength="150" />
   </EntityType>
+  <EntityType Name="FaqQuestions">
+    <Key>
+      <PropertyRef Name="UserId" />
+    </Key>
+    <Property Name="UserId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="UserName" Type="nvarchar" MaxLength="150" />
+    <Property Name="UserMail" Type="nvarchar" MaxLength="150" />
+    <Property Name="Subject" Type="nvarchar(max)" />
+    <Property Name="Questions" Type="nvarchar(max)" />
+  </EntityType>
   <EntityType Name="FreeTrial">
     <Key>
-      <PropertyRef Name="NameId" />
+      <PropertyRef Name="UserId" />
     </Key>
-    <Property Name="NameId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="UserId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
     <Property Name="NameSurname" Type="nvarchar" MaxLength="150" />
-    <Property Name="EMail" Type="nvarchar" MaxLength="150" />
-    <Property Name="Phone" Type="nvarchar" MaxLength="150" />
+    <Property Name="UserMail" Type="nvarchar" MaxLength="150" />
+    <Property Name="UserPhone" Type="nvarchar" MaxLength="150" />
     <Property Name="CompanyName" Type="nvarchar" MaxLength="150" />
   </EntityType>
   <EntityType Name="Register">
@@ -30,6 +40,7 @@
   </EntityType>
   <EntityContainer Name="CMSModelStoreContainer">
     <EntitySet Name="CityName" EntityType="Self.CityName" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="FaqQuestions" EntityType="Self.FaqQuestions" Schema="dbo" store:Type="Tables" />
     <EntitySet Name="FreeTrial" EntityType="Self.FreeTrial" Schema="dbo" store:Type="Tables" />
     <EntitySet Name="Register" EntityType="Self.Register" Schema="dbo" store:Type="Tables" />
   </EntityContainer>

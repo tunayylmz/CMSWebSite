@@ -26,7 +26,8 @@ namespace UniHealthWebSite.Models
         }
     
         public virtual DbSet<Register> Register { get; set; }
-        public virtual DbSet<FreeTrial> FreeTrial { get; set; }
         public virtual DbSet<CityName> CityName { get; set; }
+        public virtual DbSet<FaqQuestions> FaqQuestions { get; set; }
+        public virtual DbSet<FreeTrial> FreeTrial { get; set; }
     }
 }

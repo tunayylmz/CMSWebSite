@@ -143,6 +143,7 @@
     <Content Include="images\Customers\tazemasa.jpg" />
     <Content Include="images\Customers\tudors.jpg" />
     <Content Include="images\Customers\yesil.jpg" />
+    <Content Include="images\shop\mobilbank.jpg" />
     <Content Include="Models\CMS.Context.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
       <DependentUpon>CMS.edmx</DependentUpon>
@@ -252,6 +253,9 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Models\FaqQuestions.cs">
+      <DependentUpon>CMS.tt</DependentUpon>
+    </Compile>
     <Compile Include="Models\FreeTrial.cs">
       <DependentUpon>CMS.tt</DependentUpon>
     </Compile>
@@ -333,7 +337,6 @@
     <Folder Include="images\project\" />
     <Folder Include="images\resource\" />
     <Folder Include="images\service\" />
-    <Folder Include="images\shop\" />
     <Folder Include="images\team\" />
     <Folder Include="inc\phpmailer\" />
     <Folder Include="scripts\" />

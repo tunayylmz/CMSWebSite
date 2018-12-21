@@ -12,12 +12,12 @@ namespace UniHealthWebSite.Models
     using System;
     using System.Collections.Generic;
     
-    public partial class FreeTrial
+    public partial class FaqQuestions
     {
         public int UserId { get; set; }
-        public string NameSurname { get; set; }
+        public string UserName { get; set; }
         public string UserMail { get; set; }
-        public string UserPhone { get; set; }
-        public string CompanyName { get; set; }
+        public string Subject { get; set; }
+        public string Questions { get; set; }
     }
 }

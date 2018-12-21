@@ -5,6 +5,8 @@ namespace UniHealthWebSite.Controllers
 {
     internal class CMSEntitiesDBContext
     {
+        internal IEnumerable<CityName> cities;
+
         public CMSEntitiesDBContext()
         {
         }

@@ -6,8 +6,9 @@
     <edmx:Diagrams>
       <Diagram DiagramId="d44f702d450a419087eb4c692cc25166" Name="Diagram1">
         <EntityTypeShape EntityType="CMSModel.Register" Width="1.5" PointX="0.75" PointY="0.75" />
-        <EntityTypeShape EntityType="CMSModel.FreeTrial" Width="1.5" PointX="3.375" PointY="3" />
         <EntityTypeShape EntityType="CMSModel.CityName" Width="1.5" PointX="3.375" PointY="0.75" />
+        <EntityTypeShape EntityType="CMSModel.FaqQuestions" Width="1.5" PointX="0.75" PointY="3.75" />
+        <EntityTypeShape EntityType="CMSModel.FreeTrial" Width="1.5" PointX="3.375" PointY="2.875" />
       </Diagram>
     </edmx:Diagrams>
   </edmx:Designer>
