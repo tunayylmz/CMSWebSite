@@ -143,6 +143,28 @@
     <Content Include="images\Customers\tazemasa.jpg" />
     <Content Include="images\Customers\tudors.jpg" />
     <Content Include="images\Customers\yesil.jpg" />
+    <Content Include="images\products\aliexpress_entegrasyon.jpg" />
+    <Content Include="images\products\amazon_entegrasyon.jpg" />
+    <Content Include="images\products\coklu_dil.jpg" />
+    <Content Include="images\products\coklu_para_birimi.jpg" />
+    <Content Include="images\products\ebay_entegrasyon.jpg" />
+    <Content Include="images\products\eihracatAltBanner.jpg" />
+    <Content Include="images\products\global_moduller.jpg" />
+    <Content Include="images\products\Google-Partners.png" />
+    <Content Include="images\products\hizlikolaybaslangic.jpg" />
+    <Content Include="images\products\lokasyon_bazli_fiyat.jpg" />
+    <Content Include="images\products\lokasyon_bazli_ziyaretci.jpg" />
+    <Content Include="images\products\premium1.png" />
+    <Content Include="images\products\premium2.png" />
+    <Content Include="images\products\premium3.png" />
+    <Content Include="images\products\premium4.png" />
+    <Content Include="images\products\premium5.png" />
+    <Content Include="images\products\premium6.png" />
+    <Content Include="images\products\premium7.png" />
+    <Content Include="images\products\yurtdisi_kargo_entegrasyonu.jpg" />
+    <Content Include="images\products\ziyaretci_ulke.jpg" />
+    <Content Include="images\project\bayilikTablo.png" />
+    <Content Include="images\project\e-ticaret_bayilik.png" />
     <Content Include="images\shop\mobilbank.jpg" />
     <Content Include="Models\CMS.Context.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
@@ -229,7 +251,6 @@
   <ItemGroup>
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\CMSEntitiesDBContext.cs" />
-    <Compile Include="Models\CitiesViewModel.cs" />
     <Compile Include="Models\CityName.cs">
       <DependentUpon>CMS.tt</DependentUpon>
     </Compile>
@@ -273,14 +294,13 @@
     <Content Include="Views\Shared\_Layout.cshtml" />
     <Content Include="Views\Home\index.cshtml" />
     <Content Include="Views\Home\about.cshtml" />
-    <Content Include="Views\Home\blogDetails.cshtml" />
-    <Content Include="Views\Home\blogGrid.cshtml" />
-    <Content Include="Views\Home\blogLarge.cshtml" />
+    <Content Include="Views\Home\medicawellPremium.cshtml" />
+    <Content Include="Views\Home\ourProducts.cshtml" />
     <Content Include="Views\Home\ckeckout.cshtml" />
     <Content Include="Views\Home\contact.cshtml" />
     <Content Include="Views\Home\faq.cshtml" />
     <Content Include="Views\Home\project1.cshtml" />
-    <Content Include="Views\Home\project2.cshtml" />
+    <Content Include="Views\Home\dealership.cshtml" />
     <Content Include="Views\Home\project3.cshtml" />
     <Content Include="Views\Home\project4.cshtml" />
     <Content Include="Views\Home\projectSingle.cshtml" />
@@ -334,7 +354,6 @@
     <Folder Include="images\fav-icon\" />
     <Folder Include="images\icons\" />
     <Folder Include="images\logo\" />
-    <Folder Include="images\project\" />
     <Folder Include="images\resource\" />
     <Folder Include="images\service\" />
     <Folder Include="images\team\" />

@@ -11,7 +11,7 @@ namespace UniHealthWebSite.Controllers
     public class HomeController : Controller
     {
 
-        
+
         // GET: Home
         public ActionResult index()
         {
@@ -21,7 +21,7 @@ namespace UniHealthWebSite.Controllers
         {
             return View();
         }
-        public ActionResult blogDetails()
+        public ActionResult medicawellPremium()
         {
             return View();
         }
@@ -29,7 +29,7 @@ namespace UniHealthWebSite.Controllers
         {
             return View();
         }
-        public ActionResult blogLarge()
+        public ActionResult ourProducts()
         {
             return View();
         }
@@ -63,7 +63,7 @@ namespace UniHealthWebSite.Controllers
         {
             return View();
         }
-        public ActionResult project2()
+        public ActionResult dealership()
         {
             return View();
         }
@@ -111,43 +111,35 @@ namespace UniHealthWebSite.Controllers
         {
             return View();
         }
-        [HttpGet]
-        public ActionResult FreeContact()
+        public ActionResult freeContact()
         {
-            CMSEntitiesDBContext db = new CMSEntitiesDBContext();
-            List<SelectListItem> ListSelectListItem = new List<SelectListItem>();
-            foreach (CityName cityNameText in db.Cities)
-            {
-                SelectListItem selectListItem = new SelectListItem()
-                {
-                    Text = cityNameText.CityNameText,
-                    Value = cityNameText.CityId.ToString()
-                    
-                };
-                ListSelectListItem.Add(selectListItem);
-            }
-            CitiesViewModel citiesViewModel = new CitiesViewModel();
-            citiesViewModel.Cities = ListSelectListItem;
-            return View(citiesViewModel);
+            return View();
         }
-        
-        //[HttpPost]
-        //public ActionResult FreeContact(FormCollection form)
+
+        //[HttpGet]
+        //public ActionResult FreeContact()
         //{
-        //    CMSEntities db = new CMSEntities();
-        //    Register model = new Register();
-        //    model.UserName = form["txtbxYetkiliKisi"].Trim();
-        //    model.UserPhone = Convert.ToDecimal( form["txtbxTelefon"].Trim());
-        //    model.UserCity = form["ddlSehir"].Trim();
-        //    model.Mail = form["txtbxMail"].Trim();
-        //    model.UserMessage = form["txtbxMesaj"].Trim();           
-        //    db.Register.Add(model);
-        //    db.SaveChanges();
-            
+        //    CMSEntitiesDBContext db = new CMSEntitiesDBContext();
+        //    List<SelectListItem> ListSelectListItem = new List<SelectListItem>();
+        //    foreach (CityName cityNameText in db.Cities)
+        //    {
+        //        SelectListItem selectListItem = new SelectListItem()
+        //        {
+        //            Text = cityNameText.CityNameText,
+        //            Value = cityNameText.CityId.ToString()
+
+        //        };
+        //        ListSelectListItem.Add(selectListItem);
+        //    }
+        //    CitiesViewModel citiesViewModel = new CitiesViewModel();
+        //    citiesViewModel.Cities = ListSelectListItem;
+        //    return View(citiesViewModel);
+        //}
+
 
         //    return View();
         //}
-        
+
         //[HttpPost]
         //public ActionResult About(FormCollection form)
         //{
@@ -163,12 +155,23 @@ namespace UniHealthWebSite.Controllers
 
         //    return View();
         //}
-        
+        [HttpPost]
+        public ActionResult FreeContact(FormCollection form)
+        {
+            CMSEntities db = new CMSEntities();
+            Register model = new Register();
+            model.UserName = form["txtbxYetkiliKisi"].Trim();
+            model.UserPhone = Convert.ToDecimal(form["txtbxTelefon"].Trim());
+            model.UserCity = form["ddlSehir"].Trim();
+            model.Mail = form["txtbxMail"].Trim();
+            model.UserMessage = form["txtbxMesaj"].Trim();
+            db.Register.Add(model);
+            db.SaveChanges();
+
+            return View();
+        }
+
     }
 
-    internal class FreeContact
-    {
-        public List<SelectListItem> CityName { get; internal set; }
-    }
-    
 }
+
