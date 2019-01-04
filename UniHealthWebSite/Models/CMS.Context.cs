@@ -25,9 +25,9 @@ namespace UniHealthWebSite.Models
             throw new UnintentionalCodeFirstException();
         }
     
-        public virtual DbSet<Register> Register { get; set; }
         public virtual DbSet<CityName> CityName { get; set; }
         public virtual DbSet<FaqQuestions> FaqQuestions { get; set; }
         public virtual DbSet<FreeTrial> FreeTrial { get; set; }
+        public virtual DbSet<Register> Register { get; set; }
     }
 }

@@ -1,18 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
   <EntityContainerMapping StorageEntityContainer="CMSModelStoreContainer" CdmEntityContainer="CMSEntities">
-    <EntitySetMapping Name="Register">
-      <EntityTypeMapping TypeName="CMSModel.Register">
-        <MappingFragment StoreEntitySet="Register">
-          <ScalarProperty Name="UserMessage" ColumnName="UserMessage" />
-          <ScalarProperty Name="Mail" ColumnName="Mail" />
-          <ScalarProperty Name="UserCity" ColumnName="UserCity" />
-          <ScalarProperty Name="UserPhone" ColumnName="UserPhone" />
-          <ScalarProperty Name="UserName" ColumnName="UserName" />
-          <ScalarProperty Name="UserId" ColumnName="UserId" />
-        </MappingFragment>
-      </EntityTypeMapping>
-    </EntitySetMapping>
     <EntitySetMapping Name="CityName">
       <EntityTypeMapping TypeName="CMSModel.CityName">
         <MappingFragment StoreEntitySet="CityName">
@@ -39,6 +27,17 @@
           <ScalarProperty Name="UserPhone" ColumnName="UserPhone" />
           <ScalarProperty Name="UserMail" ColumnName="UserMail" />
           <ScalarProperty Name="NameSurname" ColumnName="NameSurname" />
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Register">
+      <EntityTypeMapping TypeName="CMSModel.Register">
+        <MappingFragment StoreEntitySet="Register">
+          <ScalarProperty Name="UserMessage" ColumnName="UserMessage" />
+          <ScalarProperty Name="Mail" ColumnName="Mail" />
+          <ScalarProperty Name="UserPhone" ColumnName="UserPhone" />
+          <ScalarProperty Name="UserName" ColumnName="UserName" />
           <ScalarProperty Name="UserId" ColumnName="UserId" />
         </MappingFragment>
       </EntityTypeMapping>

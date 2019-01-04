@@ -17,7 +17,6 @@ namespace UniHealthWebSite.Models
         public int UserId { get; set; }
         public string UserName { get; set; }
         public Nullable<decimal> UserPhone { get; set; }
-        public string UserCity { get; set; }
         public string Mail { get; set; }
         public string UserMessage { get; set; }
     }

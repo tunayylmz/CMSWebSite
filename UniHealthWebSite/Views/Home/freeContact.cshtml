@@ -5,74 +5,119 @@
 }
 
 <form action="/Home/freeContact" method="post">
-
- <div class="container">
-    <div class="IcerikSayfaBg">
-        <div class="container">
-            <div class="modulTittle urunlerimiz">
-                <h1>Try out the outstanding e-commerce software for free!</h1>
-            </div>
-        </div>
-    </div>
-    <div class="container text-center" style="margin-bottom: 30px;">
-        <h2 style="font-size: 16px;font-weight: 600;">An exceptional e-commerce software specially designed to increase your sales.</h2>
-        <br />
-        <h3 style="font-size: 16px; font-weight: 600;">Try the free e-commerce software for 15 days free of charge.</h3>
-    </div>
-    <div class="container" style="margin-top: 30px;">
+    <div class="iletisimContent">
         <div class="row">
-            <div class="col-md-3">
-            </div>
-            <div class="col-md-6" style="margin-bottom: 20px;">
-                <div class="form-horizontal">
-                    <div class="form-group">
-                        <div class="col-lg-12">
-                            <input name="txtbxYetkiliKisi" type="text" maxlength="255" id="ctl00_ContentPlaceHolder1_txtbxYetkiliKisi" class="form-control" placeholder="Name Surname" onfocus="$(this).attr('placeholder','');" onblur="$(this).attr('placeholder','Name Surname');">
-                        </div>
-                    </div>
-                    <div class="form-group">
-                        <div class="col-lg-12">
-                            <div class="intl-tel-input">
-                                <div class="flag-container">
-                                </div><input name="txtbxTelefon" type="text" id="txtbxTelefon" class="form-control" placeholder="    Phone" >
-                            </div>
-                        </div>
-                    </div>
-                  
-                    <div class="form-group">
-                        <div class="col-lg-12">
-                            <div class="intl-tel-input">
-                                <div class="flag-container">
-                                </div><input name="ddlSehir" type="text" id="CityNameText" class="form-control" placeholder="    City" >
-                            </div>
-                        </div>
-                    </div>
-                    <div class="form-group" style="display: none;">
-                        <div class="input-group">
-                            <input name="txtbxKullaniciAdi" type="text" maxlength="255" id="txtbxKullaniciAdi" class="form-control">
-                        </div>
-                    </div>
-                    <div class="form-group">
-                        <div class="col-lg-12">
-                            <input name="txtbxMail" type="text" maxlength="255" id="txtbxMail" class="form-control" placeholder="E-Mail" >
-                        </div>
-                    </div>
-                    <div class="form-group">
-                        <div class="col-lg-12">
-                            <textarea name="txtbxMesaj" rows="2" cols="20" id="txtbxMesaj" class="form-control" placeholder="Message" onfocus="$(this).attr('placeholder','');" onblur="$(this).attr('placeholder','Mesaj');"></textarea>
-                        </div>
-                    </div>
-
-                    <div class="form-group">
-                        <div class="col-lg-12">
-                            <input type="submit" name="btnGonder" value="Send" id="_btnGonder" class="btn btn-success" style="width:100%;">
-                        </div>
-                    </div>
+            <div class="col-md-6">
+                <div class="iletisimForm">
+                    <input name="txtbxFirmaAdi" type="text" id="txtbxFirmaAdi" class="form-control" placeholder="Company Name">
+                    <input name="txtbxYetkiliKisi" type="text" id="txtbxYetkiliKisi" class="form-control" placeholder="Authorized Person">
+                    <input name="txtbxTelefon" type="text" id="txtbxTelefon" class="form-control" placeholder="Phone Number
+">
+                    <input name="txtbxMail" type="text" id="txtbxMail" class="form-control" placeholder="E-Mail Address">
+                    <textarea name="txtbxMesaj" rows="2" cols="20" id="txtbxMesaj" class="form-control" placeholder="Message \ Note"></textarea>
+                    <input type="submit" name="btnGonder" value="Submit Form" id="btnGonder" class="btn btn-success" style="width: 100%; height: 50px;">
                 </div>
             </div>
-            <div class="col-md-3">
+            <div class="col-md-6">
+                <div class="iletisimSolContent">
+                    <div class="iletisimSol">
+                        <ul class="IletisimRightBlockUl">
+                            <li>
+                                <strong>
+                                   MEDICAWELL HEAD OFFICE
+                                </strong>
+                            </li>
+                            <li>
+                                <i class="fas fa-home"></i> &emsp;
+
+                                SELENIUM RETRO A BLOK 6. KAT NO:81 ATAKÖY 7-8-9-10. KISIM MAH. BAKIRKÖY-İSTANBUL / TURKEY
+
+                            </li>
+                            <li>
+                                <i class="fas fa-headphones-alt"></i> &emsp;
+
+                                <a style="background-color:transparent; color:#fff; margin-top:10px;" onclick="goog_report_conversion('tel:+904442176')" href="#">0212-801-42-55</a>
+                            </li>
+                            <li>
+                                <i class="fas fa-print"></i> &emsp;
+
+                                Faks:0216 347 44 72
+                            </li>
+                            <li>
+                                <i class="fas fa-envelope-square"></i> &emsp;
+
+                                E-mail: info@medicawell.com
+                            </li>
+                            <li style="float:left;">
+                                <a class="fancybox" id="bizsisiarayalim" href="#inline_content">
+                                    <i class=" i-phone-4 icon16 service-icon"></i>
+                                    We'll Call You
+                                </a>
+                            </li>
+                            <li class="IletisimSosyalBtn">
+                                <a href="#">
+                                    <i class="fab fa-facebook-f"></i>
+                                </a>
+                                <a href="#">
+                                    <i class="fab fa-twitter"></i>
+                                </a>
+                                <a href="#">
+                                    <i class="fab fa-google"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="iletisimSol teknokent">
+                        <ul class="IletisimRightBlockUl">
+                            <li>
+                                <strong>
+                                   MEDICAWELL ISTANBUL TECHNOLOGY OFFICE
+                                </strong>
+                            </li>
+                            <li>
+                                <i class="fas fa-home"></i> &emsp;
+
+                                YILDIZ TEKNOPARK YTU DAVUTPAŞA KAMPÜSÜ C1 BLOK NO:108 İSTANBUL / TURKEY
+                            </li>
+                            <li>
+                                <i class="fas fa-headphones-alt"></i> &emsp;
+
+                                <a style="background-color:transparent; color:#fff; margin-top:10px;" onclick="goog_report_conversion('tel:+904442176')" href="#">0212-801-4288</a>
+                            </li>
+                            <li>
+                                <i class="fas fa-print"></i> &emsp;
+
+                                Faks:0 (216) 347 44 72
+                            </li>
+                            <li>
+                                <i class="fas fa-envelope-square"></i> &emsp;
+
+                                E-mail: info@medicawell.com
+                            </li>
+                            <li style="float:left;">
+                                <a class="fancybox" id="A1" href="#inline_content">
+                                    <i class=" i-phone-4 icon16 service-icon"></i>
+                                    We'll Call You
+                                </a>
+                            </li>
+                            <li class="IletisimSosyalBtn">
+                                <a href="#">
+                                    <i class="fab fa-facebook-f"></i>
+                                </a>
+                                <a href="#">
+                                    <i class="fab fa-twitter"></i>
+                                </a>
+                                <a href="#">
+                                    <i class="fab fa-google"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
             </div>
+
         </div>
     </div>
-</div>
 </form>
+

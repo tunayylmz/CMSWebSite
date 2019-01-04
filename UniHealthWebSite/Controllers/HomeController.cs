@@ -5,6 +5,8 @@ using System.Web;
 using System.Web.Mvc;
 using UniHealthWebSite.Models;
 using static System.Net.Mime.MediaTypeNames;
+using System.Net;
+using System.Net.Mail;
 
 namespace UniHealthWebSite.Controllers
 {
@@ -15,6 +17,7 @@ namespace UniHealthWebSite.Controllers
         // GET: Home
         public ActionResult index()
         {
+            
             return View();
         }
         public ActionResult about()
@@ -162,13 +165,36 @@ namespace UniHealthWebSite.Controllers
             Register model = new Register();
             model.UserName = form["txtbxYetkiliKisi"].Trim();
             model.UserPhone = Convert.ToDecimal(form["txtbxTelefon"].Trim());
-            model.UserCity = form["ddlSehir"].Trim();
             model.Mail = form["txtbxMail"].Trim();
             model.UserMessage = form["txtbxMesaj"].Trim();
             db.Register.Add(model);
             db.SaveChanges();
 
+
+            sendMail(model.Mail, "Kaydınız Alınmıştır", "Kaydettik");
+
+
             return View();
+        }
+        public void sendMail(String tomail, String subject = "", String message = "")
+        {
+
+            MailMessage eposta = new MailMessage();
+            eposta.From = new MailAddress("beritansamyeli@yandex.com");
+            eposta.To.Add(tomail);
+            eposta.Subject = subject;
+            eposta.Body = message;
+            eposta.IsBodyHtml = true;
+
+            SmtpClient smtp = new SmtpClient("smtp.yandex.ru", 587);
+            smtp.Credentials = new NetworkCredential("beritansamyeli@yandex.com", "21ast73");
+            //smtp.Port = 587;
+            smtp.EnableSsl = true;
+            //smtp.DeliveryMethod = System.Net.Mail.SmtpDeliveryMethod.Network;
+            //smtp.UseDefaultCredentials = false;
+           // smtp.Host = "smtp.gmail.com";
+            smtp.Send(eposta);
+
         }
 
     }

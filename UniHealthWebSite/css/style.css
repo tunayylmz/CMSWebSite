@@ -8594,15 +8594,15 @@ input, textarea {
 }
 .owl-item1{
     float:right;
-    padding-right:7%;
+    padding-right:10%;
 }
 .owl-item2 {
     float: right;
-    padding-right: 7%;
+    padding-right: 10%;
 }
 .owl-item3 {
     float: right;
-    padding-right: 7%;
+    padding-right: 10%;
 }
 .col-md-12{
     padding-top:7%;
@@ -9078,4 +9078,71 @@ label {
     .premiumsatir.satir-7 .premiumBtn {
         border-color: #b98825;
         color: #b98825;
+    }
+.iletisimContent {
+    margin-top: 4%;
+    margin-bottom: 4%;
+    margin-left: 10%;
+}
+
+.iletisimForm .form-control {
+    margin-bottom: 48px;
+}
+
+.iletisimForm textarea {
+    min-height: 100px;
+}
+.iletisimSol {
+    background: url(images/atasehir.jpg) no-repeat center center;
+    background-size: cover;
+    width: 70%;
+    float: left;
+    margin-bottom: 2px;
+    padding: 20px;
+    background-color: #15284b;
+}
+.IletisimRightBlockUl {
+    margin: 0;
+    padding: 0;
+}
+.iletisimContent .IletisimRightBlockUl li {
+    color: #fff;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    line-height: 24px;  
+    font-weight: 500;
+    font-size: 13px;
+    padding: 5px 0;
+}
+.iletisimContent .IletisimRightBlockUl * {
+    color: #fff;
+}
+.iletisimContent .IletisimRightBlockUl li a {
+    background-color: #fff;
+    color: #15284b;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 10px 5px;
+}
+    .iletisimContent .IletisimRightBlockUl li a i {
+        background-color: #fff;
+        color: #15284b;
+        font-size: 14px;
+        font-weight: 600;
+        margin-right: 0;
+    }
+.iletisimContent .IletisimRightBlockUl .IletisimSosyalBtn a {
+    background-color: transparent;
+    border: 0;
+    margin-right: 10px;
+    float:right;
+}
+    .iletisimContent .IletisimRightBlockUl .IletisimSosyalBtn a i {
+        font-size: 21px;
+        color: #fff;
+        border: 0;
+        padding: 0;
+        background-color: transparent;
+        margin-right: 0;
     }
